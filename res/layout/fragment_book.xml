@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="45dp"
+		    android:background="@drawable/input_bg"
+		    android:orientation="horizontal" >"
+
+			<TextView
+			    android:layout_height="match_parent"
+			    android:layout_width="fill_parent"
+			    android:gravity="center"
+			    android:textColor="#FFFFFF"
+			    android:textSize="30dp"
+			    android:text="课本">
+			</TextView>
+   		</LinearLayout>
+
+		<ListView
+		    android:id="@+id/bookListview"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="2dp" 
+			android:divider="#FFB90F" 
+		    android:dividerHeight="1px">
+		</ListView>
+		
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="CutPasteId">
+        <ignore path="src/cn/edu/zucc/Fenfei/MainActivity.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/cn/edu/zucc/Fenfei/BookFragment.java" />
+        <ignore path="src/cn/edu/zucc/Fenfei/HomeFragment.java" />
+        <ignore path="src/cn/edu/zucc/Fenfei/MainActivity.java" />
+        <ignore path="src/cn/edu/zucc/Fenfei/NotesFragment.java" />
+        <ignore path="src/cn/edu/zucc/Fenfei/SettingFragment.java" />
+        <ignore path="src/cn/edu/zucc/Fenfei/TranslateFragment.java" />
+    </issue>
+    <issue id="ShowToast" severity="ignore" />
+</lint>
